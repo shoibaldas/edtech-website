@@ -1,29 +1,61 @@
+/* NavBar-Logo-Font-Increase */
 .navbar-brand {
     font-weight: 600;
     font-size: 2.5rem;
     color: #4A4A4A;
 }
 
+/* Carousel-Caption-in-Middle */
 .carousel-caption {
     top: 50%;
     transform: translateY(-50%);
     bottom: initial;
 }
 
-.explore-section {
-    background: #F4FAFD;
-}
-
-.explore-section img {
-    height: 600px;
-    width: auto;
-}
-
+/* Darken-Slider-image */
 .dark {
     filter: brightness(50%);
 }
 
-/* .img-height img {
-    height: 100%;
-    width: auto;
-} */
+/* Explore-Section-Background */
+.explore-section {
+    background: #F4FAFD;
+}
+
+/* Explore-Section-Image-Resize */
+.explore-section img {
+    height: auto;
+    width: 100%;
+}
+
+/* Tablet-View */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+
+    .carousel-caption p {
+        font-size: 16px;
+    }
+
+    .carousel-caption button {
+        width: 130px;
+        height: auto;
+    }
+}
+
+/* Mobile-View */
+@media only screen and (max-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+
+    .carousel-caption p {
+        font-size: 10px;
+    }
+
+    .carousel-caption button {
+        width: 130px;
+        height: 36px;
+    }
+}
