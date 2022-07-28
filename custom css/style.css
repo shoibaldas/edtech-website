@@ -4,10 +4,6 @@
     color: #4A4A4A;
 }
 
-/* .carousel-caption h1 {
-    font-size: 4rem;
-} */
-
 .carousel-caption {
     top: 50%;
     transform: translateY(-50%);
@@ -26,3 +22,8 @@
 .dark {
     filter: brightness(50%);
 }
+
+/* .img-height img {
+    height: 100%;
+    width: auto;
+} */
